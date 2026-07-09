@@ -70,17 +70,47 @@
 
 // console.log((10+2)*3+ 6**2)  // 12*3+ 36 // 36 +36
 
-
 // console.log( "7" = 7)
 
 
-let a = 6;
-let b = a++;
 
-console.log(a,b) //7,6
 
-console.log(b)
+let a = 6;   
+let b = a++;   // b=6, a=7
 
-b = ++a;
-console.log(b)
-console.log(a,b) //8, 
+console.log(a, b); 
+
+console.log(b);  
+
+// b = ++a;  
+// console.log(b);  //8
+// console.log(a, b);  //8,8
+
+
+// let a = 4;    
+// let b = a++;                //b=6, a=7
+// let c = b++ + ++a;          //4 + 6  =c = 10
+// let d = a++ + ++b;  // 6+ 6  =12
+
+// console.log(a, b, c, d); 
+
+
+
+let a = 6;    
+let b = a++;  
+
+console.log(a,b)  // 7,6
+
+let c = b++ + ++a;   // 6+8=14     b=7 a=8
+let d = a++ + ++b;  // 8+  8=16      a=9 b=8
+
+console.log(a, b, c, d);   // 9,8,14,16
+
+
+
+let a=7
+b= a++
+
+let c= b++ + ++a;
+
+console.log(a,b,c)
