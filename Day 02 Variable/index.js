@@ -1,23 +1,45 @@
+// syntax
 // let variableName = value;
+// let name = "Moteeullah Azmi"
+// let age = 25;
+// let isStudent = true;
 
-// let student1 = "Himanshu";
-// let student2 = "Ehteshaam"
+// var name ="Rahul";
+// var name= "Azmi"
+// console.log(name)
 
-{
-    // blockscope
-}
+//let
 
-// {
-//     let age =20;
-//     console.log(age)
-// }
+// let age = 25;
+// age= 26;
 
 // console.log(age)
 
 
-// var is a function scope
-// let const is block scope
+// const pi =3.14;
+
+// const adhaar =12345678962;
+
+// const pi =45.6
+// console.log(pi);
+
+// var a =20;
+// var a =21;
+
+// let b=6;
+//  b=7;
+// console.log(b)
+
+// {
+//     const c=20
+//     console.log(c);
+// }
 
 
-// {} it is block scope
+// let firstName = "Moteeullah"
+
+{
+    const age =25;
+    console.log(age);
+}
 
