@@ -1,105 +1,93 @@
-let age = 25;
-let student = true;
-let name = "azmi";
+// let age=25;
+// let salary = 450000;
+// let price = 99.99;
+// let tempreature = 23;
 
-// console.log(typeof age)
-// console.log(typeof student)
-// console.log(typeof name)
+// console.log(typeof price)
 
-// console.log(typeof 10)
-// console.log(typeof 10.1)
+// console.log(10/0); // infinity
+// console.log(typeof 10/0); NaN 
 
-// console.log(10/0)
+// console.log("hello" *5);
 
-// console.log("25"+25)
+// console.log(typeof NaN)
 
-// console.log(typeof NaN);
+//string
+// let name= "Moteeullah Azmi";
+// console.log(name)
+// console.log(typeof name);
+// ""
+// ''
+// ``
 
-let name1 = "pushkar";
-let name2 = "himanshu";
-let name3 = "ehteshaam";
+// backstick
 
-// console.log("my first student name " +name1+ "second student name " +name2 + "third student name " +name3);
+// let name = "Moteeullah Azmi";
+// let age =25;
+// console.log("My name is " + name + " and age is " +age)
 
-// console.log(`my first name is ${name1} second name ${name2}, third name is ${name3}`)
+// console.log(`my name is ${name} and age is ${age}`)
 
-// let namestudnet = "pushkar"
 
-// console.log("my first student name " +namestudnet);
+// console.log(typeof 100);
+// console.log(typeof "100");
 
-// console.log(`my first name is ${namestudnet}`);
 
-// let firstNumber = 100;
-// let secondNumber = "100"
+//Boolean true aur false
+// let isLoggedIn = true;
 
-// console.log(typeof firstNumber)
-// console.log(typeof secondNumber)
+// console.log(typeof isLoggedIn)
 
-// let isStudent = false;
-// console.log(typeof isStudent)
 
-// let userName = null;
+// undefined
+// let userName;
+// console.log(userName);
 // console.log(typeof userName)
 
-let largeNumber = 900719925474099734554n;
-// console.log(typeof largeNumber);
 
-// console.log(typeof Number.MAX_SAFE_INTEGER);
+// 5.Null
 
-let sum1 = 10n;
-let sum2 = 15n;
-
-// console.log(sum1+sum2);
-
-let id1 = Symbol("rahul");
-let id2 = Symbol("rahul");
-
-// console.log(id1 == id2);
-// console.log(id1 === id2);
-
-// let first ="zero"
-// let second= 0
-// console.log(first ==second) // value copmapre huwaa 0 is true
-// console.log(first === second) // value datatype string ek number false
-
-// zero = 0;
-
-// console.log(typeof 100); // number
-// console.log(typeof "Hello"); // string
-// console.log(typeof true); //boolean
-// console.log(typeof undefined); //undefined
-// console.log(typeof 10n); //bigint
-// console.log(typeof Symbol("id")); //symbol
-// console.log(typeof null) 
-
-// console.log(typeof {})
-
-// console.log(typeof function(){})
+// let sectedUser = null;
 
 
-// premitive
-let a =10;
-let b=a;
+// console.log(typeof null);
 
-b= 20;
+// BigInt
 
-console.log(a)
+// console.log(Number.MAX_SAFE_INTEGER);
+// console.log(typeof 90071992547409919795345678n);
+
+// let a =10n;
+// let b=5n;
+
+// console.log(a+b)
+
+//symbol
+// let id1=Symbol("Rahul");
+// let id2= Symbol("Rahul");
+
+// console.log(id1==id2);
+
+// typeof
+
+// console.log(typeof 100);
+// console.log(typeof 10n)
+// console.log(typeof Symbol("id")) 
+
+// console.log(typeof null);
+// console.log(typeof []) //array
+// console.log(typeof {}) //object
+// console.log(typeof function(){})  //function
 
 
-//refrence
-let user1= {
-    name: "rahul"
-};
+// let a=10;
+// let b=a; //b=10
 
-let user2=user1;
+// b=20; // b=20
 
-user2.name="Aman"
-
-console.log(user1.name)
+// console.log(a)
+// console.log(b)
 
 
-let age1 =25;
-let age2 = "25"; //25
 
-console.log(age1==age2);
-
+//Refrence

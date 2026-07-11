@@ -72,32 +72,26 @@
 
 // console.log( "7" = 7)
 
-
-
-
-// let a = 6;   
+// let a = 6;
 // let b = a++;   // b=6, a=7
 
-// console.log(a, b); 
+// console.log(a, b);
 
-// console.log(b);  
+// console.log(b);
 
-// b = ++a;  
+// b = ++a;
 // console.log(b);  //8
 // console.log(a, b);  //8,8
 
-
-// let a = 4;    
+// let a = 4;
 // let b = a++;                //b=6, a=7
 // let c = b++ + ++a;          //4 + 6  =c = 10
 // let d = a++ + ++b;  // 6+ 6  =12
 
-// console.log(a, b, c, d); 
+// console.log(a, b, c, d);
 
-
-
-// let a = 6;    
-// let b = a++;  
+// let a = 6;
+// let b = a++;
 
 // console.log(a,b)  // 7,6
 
@@ -106,18 +100,13 @@
 
 // console.log(a, b, c, d);   // 9,8,14,16
 
-
-
-// let a=7 
+// let a=7
 // b= a++  //b=7, a=8
 // console.log(a,b)
 
 // let c= b++ + ++a;   //7 + 9=16   //b=8 a=9
 
-// console.log(a,b,c)  
+// console.log(a,b,c)
 
 // //9,8,16
 
-let x = 8;
-let y = x++ + ++x + x--;    //8 + 10 + 10      x=9
-console.log(x, y); 
