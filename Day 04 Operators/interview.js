@@ -18,6 +18,17 @@
 
 
 
-console.log(NaN === NaN);
+
+
+
+// Is NaN equal to NaN in JavaScript? 🤔
+console.log(NaN == NaN);
+console.log("jhfd"*2);
+console.log(2-'dfkjhadsfi')
+
+console.log(Number.isNaN(NaN))
+
+
+
 
 
