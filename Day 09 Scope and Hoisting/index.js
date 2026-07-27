@@ -93,10 +93,10 @@
 
 // }
 
-let name = "Moteeullah ";
+
 function greet() {
-    let name ="Moteeullah "
+    let password ="Moteeullah"
 }
 
-console.log(name);
+console.log(password);
         

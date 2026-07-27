@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Voting Eligibility check</title>
+    </head>
+
+    <body>
+        <h1 align="center">Conditional statements</h1>
+
+        <!------For input object--------->
+        <label for="age input">Enter your Age:</label><br>
+        <input type="text" id="ageInput" placeholder="Enter age"><br>
+
+        <!---Button--->
+        <button onclick="checkEligibility()">Check Eligibility</button><br>
+
+        <!-- Result will show here -->
+        <p id="result"></p>
+    </body>
+
+    <script type="text/javascript">
+        function checkEligibility(){
+            let age=document.getElementById("ageInput").value;
+            let msg="";
+            if (age >= 18){
+                msg="You are eligible to vote";
+            }
+            else{
+                msg="You are not eligible to vote";
+            }
+
+            document.getElementById("result").innerHTML=msg;
+        }
+    </script>
+
+</html>

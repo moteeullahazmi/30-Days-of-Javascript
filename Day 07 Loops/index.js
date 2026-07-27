@@ -107,41 +107,69 @@
 
 // console.log("Login Success");
 
-
 // for (i=1; i<5;i++){
 //     for (j=1;j<=10;j++){
 
 //         if(j==10)
-//         {
-//             console.log(`i is value ${i}, j is value ${j}`);
-//         }
-//     break;
-//     }
+// //         {
+// //             console.log(`i is value ${i}, j is value ${j}`);
+// //         }
+// //     break;
+// //     }
+// // }
+
+// // for(let row=1; row<=3;row++){
+
+// //     console.log("row value is", row);
+// //       // i value is 1
+// //     for (let col=1; col<=3; col++){
+
+// //         console.log(row,col)
+// //     }
+
+// // }
+
+// for (let i = 1; i <= 3; i++) {
+//   let stars = "";
+
+//   for (let j = 1; j <= i; j++) {
+//     stars += "*";
+//   }
+
+//   console.log(stars);
+// }
+
+// for (let row = 1; row <= 3; row++) {   // row =4  4<=3 false
+//   for (let col = 1; col <= 3; col++) {
+//     console.log(row, col);
+//   }
+// }
+
+// for(initialization; condition; increament ){
+
+// }
+
+// for (let i=1; i<=10; i++) {
+//     console.log("Nishant Kumar" +i)
 // }
 
 
-
-// for(let row=1; row<=3;row++){
-
-//     console.log("row value is", row);
-//       // i value is 1 
-//     for (let col=1; col<=3; col++){
-
-//         console.log(row,col)
-//     }
-
-
-// }
+console.log("Azmi");
+console.log("Nishant");
+console.log("Azmi");
+console.log("Nishant");
+console.log("Azmi");
+console.log("Nishant");
+console.log("Azmi");
+console.log("Nishant");
 
 
-
-for (let i=1; i<=3; i++){
-
-    let stars ="" ;
-
-    for(let j=1;j<=i; j++){
-        stars += "*";  
-    }
-
-    console.log(stars)
+function callName(a,b){
+    console.log(a+b)
+    console.log(a-b)
 }
+
+callName(10,10);
+callName(12,12,);
+callName(100,10)
+
