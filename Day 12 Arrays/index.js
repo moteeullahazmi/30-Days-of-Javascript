@@ -16,7 +16,6 @@
 
 // const users = ["aman", "rahul", "ali", Sara]
 
-
 // const number = [10, 20, 30 ,40]
 
 // const data = [
@@ -44,8 +43,7 @@
 
 // console.log(marks.length)
 
-
-// // nested array 
+// // nested array
 // const data = [
 //     ["pushkar", 30], // 0
 //     ["ehtesham", 25], //1
@@ -54,23 +52,19 @@
 
 // console.log(data[0][0])
 
-
 // let user1 = "Pushkar";
 // let user2 = "ehteshan"
 
 // let users = ["pushkar", "ehtesham"];
 // console.log(users[2])
 
-
-
 // user1
 // const users= [
-//     ["pushakr", 25], //user1 
+//     ["pushakr", 25], //user1
 //     ["ehtesham", 22] //user2
 // ]
 
 // console.log(users[0][0])
-
 
 // const fruits = ["apple", "Banana"]
 // delete fruits[0]
@@ -78,7 +72,7 @@
 // console.log(fruits.length)
 
 // const studentDetails = [
-//     "Pushkar", 25, true, 
+//     "Pushkar", 25, true,
 // ]
 
 // const colors = ["Red", "Blue", "Green"];
@@ -91,11 +85,17 @@
 
 // console.log(marks)
 
-const users = [
-  ["Ali", 20], //0
-  ["Rahul", 25], // 
-  ["Sara", 22],
-];
+// const users = [
+//   ["Ali", 20], //0
+//   ["Rahul", 25], //
+//   ["Sara", 22],
+// ];
 
+// console.log(users[1][1])
 
-console.log(users[1][1])
+let arr = [1, 2, 3];
+
+arr = [100,20,30]
+
+console.log(arr);
+
