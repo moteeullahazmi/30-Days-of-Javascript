@@ -1,62 +1,44 @@
-// let fruits = ["Apple", "Banana"]
+// let shopList = ["shoes", "watch"];
 
-// // console.log(fruits)
+// console.log(shopList.length)
+// shopList.push("Bag");
 
-// // fruits.unshift("Mangoes")
+// console.log(shopList)
 
-// // console.log(fruits)
+// console.log(shopList.length);
 
-// // // splice
-
-// let fruits = ["Apple", "banana", "Mango", "Orange"];
-
-// fruits.splice(1,3); //banana & mango
-
-// console.log(fruits)
-
-//Add
-
-// let fruits = ["Apple", "Orange"];
-
-// fruits.splice(1,1, "Banana", "Mango");
-
-// console.log(fruits);
-
-
-//replace
-
-// let fruits = ["Apple", "Mango","a","b","c"];
-// fruits.splice(2,3, "Kiwi","Orange");
-// console.log(fruits);
-
-
-// let fruits = ["Apple", "Banana", "Mango", "Orange"];
-
-// let result = fruits.slice(2,10);
-// console.log(result);
-
-// console.log(fruits)
-
-
-
-// let frontend = ["HTML", "CSS", "JavaScript", "react.js"];
-
-// let backend = ["node.js", "react.js", "mongodb"]
-
-// let fullstack = frontend.concat(backend);
-
-// console.log(fullstack)
-
-
+// shopList.pop();
+// console.log(shopList)
 
 // let fruits = ["Apple", "Banana", "Mango"];
 
-// console.log(fruits.join(", "))
+// fruits.unshift("Orange");
 
-// let words = ["javascript", "is", "Awesome"];
-// console.log(words.join(" "))
+// console.log(fruits);
 
+// let fruits= ["Apple", "Banana", "Orange", "Mango"];
 
-let fruits= ["apple", "banana", "mango"];
+// fruits.splice(2,2)
+// console.log(fruits)
 
-console.log(fruits.includes("apples"))
+// let fruits = ["Apple", "Papaya"];
+
+// fruits.splice(1,1,"Mangoes",)
+// console.log(fruits)
+
+// let fruits = ["Apple", "Banana", "Mango", "Orange"];
+
+// let result = fruits.slice(1, 4);
+
+// console.log(result);
+// console.log(fruits)
+
+// let frontend = ["HTML", "CSS"];
+
+// let backend = ["Node", "Express"];
+
+// console.log(frontend.join(""))
+
+let words = ["JavaScript", "is", "Awesome"];
+
+console.log(words.includes("i"));
