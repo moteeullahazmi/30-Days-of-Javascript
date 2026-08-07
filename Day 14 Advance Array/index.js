@@ -46,7 +46,6 @@
 
 // console.log(total);
 
-
 // const numbers = [5,101,10,15,20,66,78,12,102];
 
 // const resultFind = numbers.find(function(num){
@@ -60,8 +59,6 @@
 // console.log("Find = ", resultFind)
 // console.log("Filter = ", resultFilter);
 
-
-
 // const users= [
 //     "Pushkarrrr",
 //     "Ehtesham",
@@ -73,8 +70,6 @@
 
 // console.log(result)
 
-
-
 // const numbers = [2, 4, 6, 10,9];
 
 // const result = numbers.every(function (num) {
@@ -82,8 +77,6 @@
 // });
 
 // console.log(result);
-
-
 
 // const marks= [90,85,80,34];
 
@@ -93,19 +86,33 @@
 
 // console.log(result);
 
-
-
 // const students = [100, 6,7,9,20,30]
 
 // students.reverse()
 // console.log(students)
 
+// let constan = [
+//   [1, 2],
+//   [3, 4,[1,2,3],[1,3,[1,2,4,[1],],],],
+// ]
 
+// const result = constan.flat(Infinity);
+// console.log(result)
 
-let constan = [
-  [1, 2],
-  [3, 4,[1,2,3],[1,3,[1,2,4,[1],],],],
-]
+// const student = ["Pushkar", "Azmi", "Ehteshaam"];
 
-const result = constan.flat(Infinity);
-console.log(result)
+// const numbers = [11, 9, 7, 8, 90];
+
+// numbers.sort(function (a,b){
+//   return a-b;
+// })
+
+// console.log(numbers)  // 7,8,9,11,90
+
+const numbers = [100, 5, 20, 50];
+
+numbers.sort(function (a, b) {
+  return b - a;
+});
+
+console.log(numbers);  //[100,50 ,20,5]
