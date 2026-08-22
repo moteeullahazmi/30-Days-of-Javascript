@@ -1,93 +1,87 @@
-// let age=25;
-// let salary = 450000;
+// let name = "Rahul";
+// let age = 26;
+// let isStudent = true;
+
+// let age = 25;
+// let salary = 45000;
 // let price = 99.99;
-// let tempreature = 23;
+// let tempreature =-5;
 
-// console.log(typeof price)
-
-// console.log(10/0); // infinity
-// console.log(typeof 10/0); NaN 
-
-// console.log("hello" *5);
+// console.log(10/0);
+// console.log("hello" * 5);
 
 // console.log(typeof NaN)
 
-//string
-// let name= "Moteeullah Azmi";
-// console.log(name)
-// console.log(typeof name);
-// ""
-// ''
-// ``
+// let name = "Rahul";
+// let city = 'Lucknow';
+// let message = `Hello World`
 
-// backstick
+// let firstName="Rahul";
 
-// let name = "Moteeullah Azmi";
-// let age =25;
-// console.log("My name is " + name + " and age is " +age)
+// console.log(typeof firstName);
 
-// console.log(`my name is ${name} and age is ${age}`)
+// let name = "Rahul";
+// let age  =22;
 
+// console.log("My name is " +name+ " and my age is " +age);
 
-// console.log(typeof 100);
-// console.log(typeof "100");
+// console.log(`my name is ${name} and my age is ${age}`)
 
+// console.log(typeof 100); //number
+// console.log(typeof "100"); //string
 
-//Boolean true aur false
 // let isLoggedIn = true;
+// let isAdmin = false;
+// let hasPaid = true;
 
-// console.log(typeof isLoggedIn)
+// console.log(typeof isAdmin)
 
+// let age = 20;
 
-// undefined
+// let canVote = age >= 18;
+
+// console.log(canVote);
+
 // let userName;
-// console.log(userName);
-// console.log(typeof userName)
+// console.log(userName)
+// console.log(typeof userName);
 
-
-// 5.Null
-
-// let sectedUser = null;
-
-
-// console.log(typeof null);
-
-// BigInt
+// let selectedUser = null;
 
 // console.log(Number.MAX_SAFE_INTEGER);
-// console.log(typeof 90071992547409919795345678n);
+// console.log(typeof 900719925474099112);
+// console.log(typeof 900719925474099112n);
 
-// let a =10n;
-// let b=5n;
+// let a= 10n;
+// let b= 5n;
 
 // console.log(a+b)
 
-//symbol
-// let id1=Symbol("Rahul");
-// let id2= Symbol("Rahul");
+// let id1 = Symbol("id");
+// let id2 = Symbol("id");
 
-// console.log(id1==id2);
+// console.log(id1 === id2);
 
-// typeof
-
-// console.log(typeof 100);
-// console.log(typeof 10n)
-// console.log(typeof Symbol("id")) 
+// console.log(typeof 100);  //number
+// console.log(typeof "Hello");  //string
+// console.log(typeof true);  //boolean
+// console.log(typeof undefined); //undefined
+// console.log(typeof 10n); //bigint
+// console.log(typeof Symbol("id")); //symbol
 
 // console.log(typeof null);
-// console.log(typeof []) //array
-// console.log(typeof {}) //object
-// console.log(typeof function(){})  //function
+// console.log(typeof []);
+// console.log(typeof {});
+// console.log(typeof function () {});
 
+// let user1 = {
+//   name: "Rahul",
+// };
 
-// let a=10;
-// let b=a; //b=10
+// let user2 = user1;
 
-// b=20; // b=20
+// user2.name = "Aman";
 
-// console.log(a)
-// console.log(b)
+// console.log(user1.name);
 
-
-
-//Refrence
+console.log(Number.MAX_SAFE_INTEGER);
