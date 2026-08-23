@@ -25,7 +25,7 @@
 
 
 let promise = new Promise((resolve, reject) => {
-  let success = true;
+  let success = false;
 
   if (success) {
     resolve("Kaam ho gaya");
