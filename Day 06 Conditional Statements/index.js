@@ -1,120 +1,56 @@
-// if(condition){
-//     //statement
-// } else {
-//statement }
+// let age = 18;
 
-// let age =18;
-
-// if(age >= 18){
-//     console.log("Adult")
-// } else {
-//     console.log("not Adult")
+// if(age>18){
+//     console.log("Adult");
+// } else{
+//     console.log("Minor")
 // }
 
-// //if{}
-// else if{}
+// let marks = 40;
 
-// let marks =59;
-// if(marks >=90) {  //false
-//     console.log( "Grade A");
-// }
-// else if (marks >=60) {  //false
+// if(marks >=90){
+//     console.log("Grade A")
+// } else if(marks >= 60){
 //     console.log("Grade B")
 // } else {
-//     console.log("Fail")  //fail
+//     console.log("Fail")
 // }
 
-// switch(param){
-//     case 1:
-//     case 2:
-//     case 3:
+let day = "3";
 
-//     case n:
-//         default:
-// }
+switch (day) {
+  case 1:
+    console.log("Monday");
+    break;
+  case 2:
+    console.log("Tuesday");
+    break;
+  case 3:
+    console.log("Wednesay");
+  case 4:
+    console.log("Thursday ");
+    
+  case 5:
+    console.log("Friday");
+    break;
 
-// let day ="Monday";
-
-// switch(day){
-//     case "Monday":
-//     console.log(1);
-
-//     case 2:
-//     console.log("Tuesday");
-
-//     case 3:
-//     console.log("Wednesday");
-
-//     case 4:
-//     console.log("Thursday");
-
-//     case 5:
-//         console.log("Friday")
-//         break;
-//     case 6:
-//     console.log("Saturday");
-
-//     case 7:
-//     console.log("Sunday");
-
-//     default: console.log("Wrong day you are enter")
-//     }
-
-// let color = "y";
-
-// switch (color) {
-//   case "r":
-//     console.log("red");
-//     break;
-
-//   case "g":
-//     console.log("green");
-//     break;
-
-//   case "b":
-//     console.log("blue");
-//     break;
-
-//     default: 
-//     console.log("wrong color")
-// }
+default:
+    console.log("Invalid Day")
+}
 
 
+// let age =20;
 
+// let hasLicense =false ;
 
-// let isLogin= false;
-// let isAdmin= true;
-
-// if(isLogin){ //false
-//     if(isAdmin){
-//         console.log("yes i have permission to change my password ")
-//     }
-// }
-
-// if(age >=18){
-//     if(isLicense){
+// if(age >=18){ //true 
+//     if(hasLicense){
 //         console.log("You can drive")
 //     }
 // }
 
-// if(age >=18 && isLicense){
-//     console.log("You can drive");
-// }
 
-// ternary operator
+// let age = 20 ;
+// let result = age >=18 ? "Adult" : "Minor";
 
-// condtion ? trueValue : falseValue;
-
-let age =25;
-
-// if(age >=18) {
-//     console.log("you are elgible for voter");
-// } else {
-//     console.log("You are not eligible");
-// }
-
- let result = age>=18 ? "YOu are eligible" : " You are not eligible"
-
-
- console.log(result)
-
+// console.log(result)
