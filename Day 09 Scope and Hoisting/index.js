@@ -1,102 +1,44 @@
-// let course = "javascript";  //global scope
+// let name = "Azmi";
 
-// function allCourse() {
-//   console.log(course);  //11
+// function test(){
+//     console.log(name)
 // }
 
-// allCourse();
-// console.log(course)
-
-// function azmi(){
-//     console.log(course)
-// }
-
-// azmi();
+// test();
 
 
-// if(true){
-//     var password= "pushkar";
-//     console.log(password)
-// }
-
-
-
-// console.log(password);
-
-
-
-
-// if(true){
-//     var age = 20;
+// function test(){
+//     let age = 26
 //     console.log(age)
 // }
 
+// test();
 // console.log(age)
 
 
-// let course = "linux"
+// if(true){
+//     let city = "Lucknow"
+//     console.log(city)
+// }
 
-// function first(){
-//     function second(){
-//         console.log(course)
+// console.log(city)
+
+// function outer(){
+//     let language ="JavaScript"
+
+//     function inner(){
+//         console.log(language)
 //     }
-//     second();
+//     inner()
 // }
 
-// first();
-
-// const myData = "Global Data";
-
-// function outerFunction() {
-//   const myData = "Outer Function Data";
-
-//   function innerFunction() {
-//     const myData = "Inner Function Data";
-//     console.log(myData); // Which 'myData' prints?
-//   }
-
-//   innerFunction();
-//   console.log(myData); // Which 'myData' prints?
-// }
-
-// outerFunction();
-// console.log(myData); // Which 'myData' prints?
+// outer();
 
 
-// let name = "John"; // Global variable
+// console.log(a);
 
-// function sayHello() {
-//       console.log("Hello " + name);
-// }
+// let a=10;
 
-// sayHello(); // Output: "Hello John"
+console.log(x);
 
-
-
-// Hoisting
-
-// const a = 10;  
-// console.log(a);  
-
-
-// sayHello();
-
-// var saHello= function sayHello(){
-//     console.log("Hello")
-// }
-
-// console.log(name);
-
-// let name= "pushkar"
-
-// {
-
-// }
-
-
-function greet() {
-    let password ="Moteeullah"
-}
-
-console.log(password);
-        
+const x=5;
